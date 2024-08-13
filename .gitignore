@@ -39,3 +39,4 @@ build/
 
 /src/main/resources/API Key.txt
 /src/main/java/pl/danielw/APIKey.java
+/src/main/java/pl/danielw/APIConstants.java
