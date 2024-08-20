@@ -1,6 +1,6 @@
 package pl.danielw.Service;
 
-import pl.danielw.APIConstants;
+import pl.danielw.CatAPIConstants;
 import pl.danielw.Entity.CatImage;
 
 import java.io.IOException;
@@ -46,7 +46,7 @@ public class CatApiService {
     private HttpRequest.Builder requestCountBuilder(int count) {
         if (count < 1) throw new IllegalArgumentException();
         return HttpRequest.newBuilder()
-                .header(APIConstants.HEADER.VALUE, APIConstants.KEY.VALUE)
-                .uri(URI.create(APIConstants.URI.VALUE + count));
+                .header(CatAPIConstants.HEADER.VALUE, CatAPIConstants.KEY.VALUE)
+                .uri(URI.create(CatAPIConstants.URI.VALUE + count));
     }
 }

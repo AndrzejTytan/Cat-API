@@ -37,6 +37,4 @@ build/
 ### Mac OS ###
 .DS_Store
 
-/src/main/resources/API Key.txt
-/src/main/java/pl/danielw/APIKey.java
-/src/main/java/pl/danielw/APIConstants.java
+/src/main/java/pl/danielw/CatAPIConstants.java
